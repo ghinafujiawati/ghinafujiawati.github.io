@@ -2,12 +2,25 @@
     background-color: white !important;
 }
 
+
 .navbar-brand1 {
     background: black;
     color: white !important;
     padding: 5px 8px;
     border-radius: 35px;
     font-weight: 500;
+}
+
+@media screen and (max-midth : 768px){
+    .navbar {
+        width: 100%;
+    }
+    .navbar-light {
+        width: 100%;
+    }
+    .navbar-brand1 {
+        width: 100%;
+    }
 }
 
 .bg-img-1 .img-responsive{
@@ -21,6 +34,18 @@
     width: 150px;
     height: 150px;
     object-fit: cover;
+}
+
+@media screen and (max-midth : 768px){
+    .bg-img-1 {
+        width: 100%;
+    }
+    .img-responsive {
+        width: 100%;
+    }
+    .img-circle {
+        width: 100%;
+    }
 }
 
 .profile-info{
